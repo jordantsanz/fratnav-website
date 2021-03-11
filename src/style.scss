@@ -73,10 +73,16 @@ font-style: normal;
 font-weight: normal;
 font-size: 33px;
 line-height: 40px;
+margin-top: 20px;
 /* identical to box height */
 
 
 color: #FFFCEC;
+}
+
+.button-flex{
+  display: flex;
+  flex-direction: column;
 }
 
 .subtitle{
@@ -109,6 +115,7 @@ color: #2D3E51;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  height: 100%;
 }
 
 .panel-2-text-group{
